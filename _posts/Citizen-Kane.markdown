@@ -9,7 +9,5 @@ Un importante magnate estadounidense, Charles Foster Kane, dueño de una importa
 
 ![Ciudadano Kane](/images/kane.jpg)
 
-<iframe width="560" height="315" 
-src="//ok.ru/videoembed/1159917931103"
- frameborder="0" allow="autoplay" allowfullscreen></iframe>
+
 
