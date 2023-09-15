@@ -59,8 +59,29 @@ cómodas es usar un decorador llamando a su función decoradora.
 ``` python
 @app.before_request
 def before_request_func():
-    # ..................
-    
+     print("before_request executing!")
+
+
+
+```
+Otro script que no debe faltar es un control sobre un mal enrutamiento
+para controlar o redirigir el error 404 y renderizar un HTML generado
+para este uso concreto.
+
+``` python
+#################################################################################
+################## CONTROL DE RUTAS NO EXISTENTES (RENDERIZA 404 PAGE) ##########
+################################################################################# 
+ 
+ 
+@app.errorhandler(404)
+def not_found(e):
+  return render_template("salida.html",mensaje="Recurso no encontrado. Error 404")
+
+
+
+#################################################################################
+
 
 ```
 
