@@ -7,20 +7,23 @@ tags: [Flask]
 Mostraré algunos de los scripts que uso el flask para (Get,Post,Delete etc..) más la 
 conexión a base de datos, archivo configuarción y otros.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Jekyll also offers powerful support for code snippets:
 
-``` ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+Esto sería lo primero: Conexión a base de datos
+
+``` python
+#################################################################################
+######################## MODULO DE CONEXION A BASE DE DATOS #####################
+#################################################################################
+
+
+from flask_mysqldb import MySQLdb
+from . import config
+
+db = MySQLdb.connect(host=config.MYSQL_HOST,    # your host, usually localhost
+                                                user=config.MYSQL_USER ,     # your username
+                                                passwd= config.MYSQL_PASSWORD,  # your password
+                                                db=config.MYSQL_DB)        # name of the data base
 ```
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
