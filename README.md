@@ -4,6 +4,7 @@ Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://g
 
 > :warning:
   This theme requires ruby and rubygems installed
+  ok
 
 ### Features
 
