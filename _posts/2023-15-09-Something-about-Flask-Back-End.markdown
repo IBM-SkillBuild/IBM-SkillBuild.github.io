@@ -176,4 +176,3 @@ pueden encontrarme en  [LinkedIn][linkedin]
 
 [linkedin]: https://www.linkedin.com/in/e-cabrera-blazquez/
 
-<div class="x-frame video" data-video="http://player.vimeo.com/video/52302939"> </div>
