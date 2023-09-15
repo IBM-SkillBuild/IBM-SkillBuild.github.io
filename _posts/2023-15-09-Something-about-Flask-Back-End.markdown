@@ -118,9 +118,12 @@ def ver_favoritos():
 
 ```
 
-Ahora mostraré una de las funciones que llaman aconsultas a base de datos y el módulo encargado.
-Estamos usando SQl directamente. Otra de las posiblesformas de trabajar sería usando un ORM  
-como pueda ser SQLAlchemy.
+Ahora mostraré una de las funciones que llaman a consultas a base de datos y al
+módulo encargado.
+
+Estamos usando SQl directamente. Otra de las posiblesformas de trabajar sería 
+usando un ORM como pueda ser SQLAlchemy.
+
 
 ``` python
 
