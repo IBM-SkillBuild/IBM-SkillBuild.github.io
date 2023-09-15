@@ -5,11 +5,12 @@ categories: [Flask]
 tags: [Flask]
 ---
 Mostraré algunos de los scripts que uso el flask para (Get,Post,Delete etc..) más la 
-conexión a base de datos, archivo configuarción y otros.
+conexión a base de datos, archivo configuarción y decorador de "Before request" para
+la protección de rutas.
 
 
 
-Esto sería lo primero: Conexión a base de datos
+Esto sería lo primero: Conexión a base de datos.
 
 ``` python
 #################################################################################
@@ -52,5 +53,15 @@ PEXELS_APIKEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 #################################################################################
 ```
 
+La protección de rutas se puede hacer de diversas formas. Una de las más
+cómodas es usar un decorador llamando a su función decoradora.
+
+``` python
+@app.before_request
+def before_request_func():
+    # ..................
+    
+
+```
 
 
