@@ -26,7 +26,7 @@ db = MySQLdb.connect(host=config.MYSQL_HOST,         # your host, usually localh
                      passwd= config.MYSQL_PASSWORD,  # your password
                      db=config.MYSQL_DB)             # name of the data base
 
-#################################################################################                     
+##########################################                     
 ```
 
 Si os habeis fijado, el modulo anterior importa tanto MySQLdb como config.
@@ -38,14 +38,14 @@ Si os habeis fijado, el modulo anterior importa tanto MySQLdb como config.
 ############################################
 
 
-MYSQL_HOST="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+MYSQL_HOST="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 MYSQL_USER="xxxxxxxxxxxxxxxxx"
 MYSQL_PASSWORD="xxxxxxxxxxxxxxxxxxx"
 MYSQL_DB="xxxxxxxxxxxxxxxxxx"
 MYSQL_PORT=3306
-MYSQL_SECRET="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+MYSQL_SECRET="xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 APP_SECRET="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-PEXELS_APIKEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+PEXELS_APIKEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 
 ##############################################
@@ -175,3 +175,5 @@ Esto es una pequeña demostración. Para ver otras publicaciones al respecto
 pueden encontrarme en  [LinkedIn][linkedin]
 
 [linkedin]: https://www.linkedin.com/in/e-cabrera-blazquez/
+
+<div class="x-frame video" data-video="http://player.vimeo.com/video/52302939"> </div>
