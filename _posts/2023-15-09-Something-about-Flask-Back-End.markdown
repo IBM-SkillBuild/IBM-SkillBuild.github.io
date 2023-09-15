@@ -51,12 +51,16 @@ PEXELS_APIKEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 #################################################################################
 #################################################################################
 #################################################################################
+
+
 ```
 
 La protección de rutas se puede hacer de diversas formas. Una de las más
 cómodas es usar un decorador llamando a su función decoradora.
 
 ``` python
+
+
 @app.before_request
 def before_request_func():
      print("before_request executing!")
@@ -69,6 +73,8 @@ para controlar o redirigir el error 404 y renderizar un HTML generado
 para este uso concreto.
 
 ``` python
+
+
 #################################################################################
 ################## CONTROL DE RUTAS NO EXISTENTES (RENDERIZA 404 PAGE) ##########
 ################################################################################# 
@@ -90,9 +96,11 @@ sobre una del las c(lave/valor) de "FLASK SESSION" para evitar accesos no
 autorizados.
 
 ``` python
-###############################################################################################################
-################## FUNCION QUE DEVUELVE TABLA FAVORITOS (ALL) #################################################
-###############################################################################################################
+
+
+#################################################################################
+################## FUNCION QUE DEVUELVE TABLA FAVORITOS (ALL) ###################
+#################################################################################
 
 @app.route("/ver_favoritos")
 def ver_favoritos():
@@ -105,7 +113,8 @@ def ver_favoritos():
         Dom.mensaje_error("No hay nada que mostrar")
         return "error"
 
-##############################################################################################################
+#################################################################################
+
 
 ```
 
@@ -114,9 +123,11 @@ Estamos usando SQl directamente. Otra de las posiblesformas de trabajar sería u
 como pueda ser SQLAlchemy.
 
 ``` python
-###############################################################################################################
-################## FUNCION QUE DEVUELVE TABLA FAVORITOS (ALL) #################################################
-###############################################################################################################
+
+
+#################################################################################
+################## FUNCION QUE DEVUELVE TABLA FAVORITOS (ALL) ###################
+#################################################################################
 
 @app.route("/ver_favoritos")
 def ver_favoritos():
@@ -150,6 +161,8 @@ def consulta():
        return False   
     
    return favoritos_all
+
+   
 
 
 ```
