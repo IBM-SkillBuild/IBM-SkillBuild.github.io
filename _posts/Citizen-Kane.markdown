@@ -1,7 +1,7 @@
 ---
 title:  "Ciudadano Kane"
 date:   2023-09-15 17:00:23
-categories: [Cine]
+categories: [cine]
 tags: [cine]
 ---
 
