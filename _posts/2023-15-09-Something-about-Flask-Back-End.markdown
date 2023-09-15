@@ -85,4 +85,77 @@ def not_found(e):
 
 ```
 
+En el siguiente script se verá como (sin decorador), incluimos el condicional
+sobre una del las c(lave/valor) de "FLASK SESSION" para evitar accesos no
+autorizados.
 
+``` python
+###############################################################################################################
+################## FUNCION QUE DEVUELVE TABLA FAVORITOS (ALL) #################################################
+###############################################################################################################
+
+@app.route("/ver_favoritos")
+def ver_favoritos():
+    if not session["email"]:
+         return render_template("salida.html",mensaje="No tiene acceso a este recurso, pero hay otros mundos")
+    encontrados=todos_los_favoritos.consulta()
+    if encontrados:
+         return jsonify(encontrados)
+    else:
+        Dom.mensaje_error("No hay nada que mostrar")
+        return "error"
+
+##############################################################################################################
+
+```
+
+Ahora mostraré una de las funciones que llaman aconsultas a base de datos y el módulo encargado.
+Estamos usando SQl directamente. Otra de las posiblesformas de trabajar sería usando un ORM  
+como pueda ser SQLAlchemy.
+
+``` python
+###############################################################################################################
+################## FUNCION QUE DEVUELVE TABLA FAVORITOS (ALL) #################################################
+###############################################################################################################
+
+@app.route("/ver_favoritos")
+def ver_favoritos():
+    if not session["email"]:
+         return render_template("salida.html",mensaje="No tiene acceso a este recurso, pero hay otros mundos")
+    encontrados=todos_los_favoritos.consulta()
+    if encontrados:
+         return jsonify(encontrados)
+    else:
+        Dom.mensaje_error("No hay nada que mostrar")
+        return "error"
+
+
+
+#################################################################################
+###########################  LECTURA TABLA FAVORITOS ############################
+#################################################################################
+
+from . import connection
+
+def consulta():
+   try:  
+        db = connection.db
+        cursor = db.cursor()
+            # campos de favoritos (   0-id...... 1-nombre ....2-url   )
+        cursor.execute("SELECT * FROM favoritos ")
+        favoritos_all= cursor.fetchall()
+        cursor.close()
+     
+   except:
+       return False   
+    
+   return favoritos_all
+
+
+```
+
+
+Esto es una pequeña demostración. Para ver otras publicaciones al respecto
+pueden encontrarme en  [LinkedIn][linkedin]
+
+[linkedin]: https://www.linkedin.com/in/e-cabrera-blazquez/
