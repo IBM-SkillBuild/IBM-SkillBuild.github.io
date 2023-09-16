@@ -15,11 +15,8 @@ Esta obra está bajo una Licencia Creative Commons Reconocimiento-CompartirIgual
 
 Adaptar — remezclar, transformar y crear a partir del material para cualquier finalidad, incluso comercial.
 
-
-
-
-
-
-<video controls preload='metadata' onclick='(function(el){ if(el.paused) el.play(); else el.pause() })(this)'>
-  <source src='https://ok.ru/videoembed/1159917931103' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-</video>
+<div class="myvideodiv">
+<iframe class="myvideo" width="560" height="315" 
+src="//ok.ru/videoembed/1159917931103"
+ frameborder="0" allow="autoplay" allowfullscreen></iframe>
+</div>
