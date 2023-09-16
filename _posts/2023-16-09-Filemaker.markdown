@@ -17,5 +17,5 @@ interactua bilateralmente con objetos en formato Json.
 
 
 <div class="myvideodiv">
-<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/0uJlgKLA#8umqIIxGIhD9lyjQnuLa0k-g8AqPDlAdawrnaNrA5AQ" allowfullscreen ></iframe>
+<iframe class="myvideo" width="640" height="360" frameborder="0" src="https://mega.nz/embed/0uJlgKLA#8umqIIxGIhD9lyjQnuLa0k-g8AqPDlAdawrnaNrA5AQ" allowfullscreen ></iframe>
 </div>
