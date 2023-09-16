@@ -5,14 +5,14 @@ categories: [Video-Tutoriales]
 tags: [Video-Tutoriales]
 ---
 
-Probamos el intercambio de datos (Json) inyectado código (Html/css/Javascript)
+Probamos el intercambio de datos (Json) inyectando código (Html/css/Javascript)
 en un proyecto de prueba Filemaker.
 
 ![Filemaker](/images/filemaker.png)
 
 En este video se muestra la forma de inyectar código Html/css/javascript en
-un visor web de Filemaker para  escalar la programación nativa a todas las 
-capaciades que nos ofrece el desarrollo web. En este aso veremos como se
+un visor web Filemaker para escalar la programación nativa a todas las 
+capaciades que nos ofrece el desarrollo web. En este caso veremos como se
 interactua bilateralmente con objetos en formato Json.
 
 

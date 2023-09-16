@@ -12,14 +12,14 @@ El estrés, los salarios bajos, la explotación laboral y la pobreza son algunos
 
 <img class="centrar" src="/images/licencia.png" alt="Imagen creative commons">
 
-Para ver el detalle al respecto pueden ver la [licencia][licencia]
+Para ver el detalle al respecto, pueden consultar la [licencia][licencia]
 
 [licencia]: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.es
 
 <img class="centrar" src="/images/licencia2.png" alt="Imagen creative commons">
 
 
-Me quedo con esta versón hasta que encontremos un "mago" del cine que nos presente
+Me quedo con esta versión hasta que encontremos un "mago" del cine que nos presente
 la versión actual
 
 <div class="myvideodiv">

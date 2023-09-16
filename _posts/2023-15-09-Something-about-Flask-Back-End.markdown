@@ -4,8 +4,8 @@ date:   2023-09-15 13:24:23
 categories: [Flask]
 tags: [Flask]
 ---
-Mostraré algunos de los scripts que uso el flask para (Get,Post,Delete etc..) más la 
-conexión a base de datos, archivo configuarción y decorador de "Before request" para
+Mostraré algunos de los scripts que uso en flask para (Get,Post,Delete etc..) más la 
+conexión a base de datos, archivo configuración y decorador de "Before request" para
 la protección de rutas.
 
 
@@ -70,7 +70,7 @@ def before_request_func():
 ```
 Otro script que no debe faltar es un control sobre un mal enrutamiento
 para controlar o redirigir el error 404 y renderizar un HTML generado
-para este uso concreto.
+para este uso.
 
 ``` python
 
@@ -91,8 +91,8 @@ def not_found(e):
 
 ```
 
-En el siguiente script se verá como (sin decorador), incluimos el condicional
-sobre una del las c(lave/valor) de "FLASK SESSION" para evitar accesos no
+En el siguiente script se verá como incluimos (sin decorador), el condicional
+sobre una de las (clave/valor) de "FLASK SESSION" para evitar accesos no
 autorizados.
 
 ``` python
@@ -118,8 +118,7 @@ def ver_favoritos():
 
 ```
 
-Ahora mostraré una de las funciones que llaman a consultas a base de datos y al
-módulo encargado.
+Ahora mostrarémos la función junto al módulo encargado.
 
 Estamos usando SQl directamente. Otra de las posibles formas de trabajar sería 
 usando un ORM como pueda ser SQLAlchemy.
