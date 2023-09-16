@@ -4,4 +4,7 @@ gem 'github-pages', group: :jekyll_plugins
 gem "jekyll", "~> 3.9"
 
 gem "webrick", "~> 1.8"
-gem 'jekyll-video-tag'
+
+group :jekyll_plugins do
+  gem 'octopress-video-tag'
+end

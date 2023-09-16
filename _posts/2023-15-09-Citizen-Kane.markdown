@@ -18,4 +18,8 @@ Adaptar — remezclar, transformar y crear a partir del material para cualquier 
 
 
 
-{% video //ok.ru/videoembed/1159917931103 width=560 height=315 %}
+
+
+<video controls preload='metadata' onclick='(function(el){ if(el.paused) el.play(); else el.pause() })(this)'>
+  <source src='https://ok.ru/videoembed/1159917931103' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+</video>

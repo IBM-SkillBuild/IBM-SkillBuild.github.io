@@ -38,5 +38,5 @@ kramdown:
   hard_wrap: false
 
 plugins: ['jekyll-paginate']
-gems: ['jekyll_video_tag']
+gems: -octopress-video-tag
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
