@@ -18,5 +18,6 @@ Adaptar — remezclar, transformar y crear a partir del material para cualquier 
 <div class="myvideodiv">
 <iframe class="myvideo" width="560" height="315" 
 src="//ok.ru/videoembed/1159917931103"
- frameborder="0" allow="autoplay" allowfullscreen></iframe>
+ frameborder="0" allow="autoplay" allowfullscreen>
+</iframe>
 </div>
