@@ -9,12 +9,16 @@ El estrés, los salarios bajos, la explotación laboral y la pobreza son algunos
 
 ![Tiempo modernos](/images/tiempos-modernos.jpg)
 
-La titularidad de los derechos patrimoniales de esta obra pertenece a Palafox López, Dulce Karina. Su uso se rige por una licencia Creative Commons BY-NC-ND 4.0 Internacional, https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.es, fecha de asignación de la licencia 2019, para un uso diferente consultar al responsable jurídico del repositorio en bidi@dgb.unam.mx.
+
 <img class="centrar" src="/images/licencia.png" alt="Imagen creative commons">
-Terminos de la licencia  [Ver terminos de la licencia][licencia]
+
+Terminos de la licencia  [ver licencia][licencia]
 [licencia]: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.es
 
 <img class="centrar" src="/images/licencia2.png" alt="Imagen creative commons">
+
+Me quedo con esta versón hasta que encontremos un "mago" del cine que nos presente
+la versión actual
 
 <div class="myvideodiv">
 <iframe class="myvideo" width="560" height="315" src="//ok.ru/videoembed/1825185532509" frameborder="0" allow="autoplay" allowfullscreen>
