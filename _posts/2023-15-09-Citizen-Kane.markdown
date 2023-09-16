@@ -16,7 +16,6 @@ Esta obra está bajo una Licencia Creative Commons Reconocimiento-CompartirIgual
 Adaptar — remezclar, transformar y crear a partir del material para cualquier finalidad, incluso comercial.
 
 
-<iframe width="560" height="315" 
-src="//ok.ru/videoembed/1159917931103"
- frameborder="0" allow="autoplay" allowfullscreen></iframe>
 
+
+{% video //ok.ru/videoembed/1159917931103 width=560 height=315 %}
