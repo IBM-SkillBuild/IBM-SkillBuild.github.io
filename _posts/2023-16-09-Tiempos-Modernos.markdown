@@ -12,7 +12,7 @@ El estrés, los salarios bajos, la explotación laboral y la pobreza son algunos
 
 <img class="centrar" src="/images/licencia.png" alt="Imagen creative commons">
 
-Terminos de la licencia  [ver la licencia][licencia]
+Terminos de la licencia  [licencia][licencia]
 [licencia]: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.es
 
 <img class="centrar" src="/images/licencia2.png" alt="Imagen creative commons">
