@@ -14,7 +14,7 @@ La comunicación no es mi mayor fuerte y puede resultar algo cansino si no eres 
 
 <img class="centrar" src="/images/forges.png" alt="Antonio Fraguas">
 
-Para oficial para saber algo más de [Forges][Forges]
+Página oficial para saber algo más de [Forges][Forges]
 
 [Forges]: https://www.forges.com/
 
