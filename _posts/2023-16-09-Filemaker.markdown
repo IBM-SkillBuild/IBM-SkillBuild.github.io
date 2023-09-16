@@ -5,7 +5,7 @@ categories: [Video-Tutoriales]
 tags: [Video-Tutoriales]
 ---
 
-Probamos el intercambio de datos (json) inyectado código (Html/css/Javascript)
+Probamos el intercambio de datos (Json) inyectado código (Html/css/Javascript)
 en un proyecto de prueba Filemaker.
 
 ![Filemaker](/images/filemaker.png)
