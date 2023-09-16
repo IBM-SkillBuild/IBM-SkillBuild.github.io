@@ -38,5 +38,7 @@ kramdown:
   hard_wrap: false
 
 plugins: ['jekyll-paginate']
+plugins:
+  - jekyll-pdf-embed
 
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
