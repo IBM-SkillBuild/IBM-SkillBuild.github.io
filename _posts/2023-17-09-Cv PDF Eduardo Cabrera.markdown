@@ -9,9 +9,8 @@ Soy aprendíz. No ando presumiendo de nada, sino disfrutando de todo. Me gusta a
 
 <img class="centrar" src="/images/chaplin.png" alt="Viñeta forges">
 
- {% pdf "https://cv-eduardo.github.io/docs/Eduardo%20Cabrera%20Bl%C3%A1zquez-cv-2023.pdf" %}
-
-
+ 
+<object data="../images/cv.pdf" width="1000" height="1000" type='application/pdf'></object>
 
 
 
