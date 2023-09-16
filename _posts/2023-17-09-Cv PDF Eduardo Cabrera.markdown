@@ -1,5 +1,5 @@
 ---
-title:  "Cv Pdf para cuando quiero ser programador"
+title:  "Cv Pdf Eduardo Cabrera"
 date:   2023-09-17 00:40:00
 categories: [Eduardo]
 tags: [Eduardo]
