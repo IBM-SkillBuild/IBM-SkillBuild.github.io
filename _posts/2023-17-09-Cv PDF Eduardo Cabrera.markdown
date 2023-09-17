@@ -14,7 +14,7 @@ tags: [Eduardo]
 
 <div class="content">
     <div class="embed-container">
-       <embed src="images/cv.pdf#page=3&zoom=50" type="application/pdf" width="100%" height="835px" />
+       <embed src="images/cv.pdf" type="application/pdf" width="100%" height="835px" />
     </div>
 </div>
 
