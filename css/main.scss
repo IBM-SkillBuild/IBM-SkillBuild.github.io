@@ -94,3 +94,12 @@ pre.highlight code,
    position: relative;
 }
 
+@media only screen and (max-width: 900px) {
+   embed {
+   position: absolute;
+   top: 50px;
+   left: 5px;
+   width: 10%;
+   height: 10%;
+ }}
+ 
