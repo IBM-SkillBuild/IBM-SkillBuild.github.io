@@ -82,14 +82,13 @@ pre.highlight code,
     }
 
 object{
-  margin: 0 auto;
-}
+  
+  @media screen and (max-width: 1200px) {
 
-@media screen and (max-width: 1200px) {
-object{
   width: 300;
   height: 750;
-}
  
 
 }
+}
+
