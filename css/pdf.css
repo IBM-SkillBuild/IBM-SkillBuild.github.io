@@ -1,7 +1,7 @@
 
 
 .content {
-   width: 50%;
+   width: 90%;
    margin: 0px auto;
 }
 
@@ -13,7 +13,7 @@
    position: relative;
 }
 
-.embed-container iframe {
+object {
    width: 100%;
    height: 100%;
    position: absolute;

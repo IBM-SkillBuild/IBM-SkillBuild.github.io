@@ -9,11 +9,12 @@ Soy aprendíz. No ando presumiendo de nada, sino disfrutando de todo. Me gusta a
 
 <img class="centrar" src="/images/chaplin.png" alt="Viñeta forges">
 
+
+
+
 <div class="content">
     <div class="embed-container">
-        <iframe src="/images/cv.pdf" frameborder="0"></iframe>
+        <object data="/images/cv.pdf"   type='application/pdf'>
     </div>
 </div>
-
-
 
