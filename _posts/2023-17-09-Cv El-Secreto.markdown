@@ -13,7 +13,7 @@ tags: [Eduardo]
 
 
 <div class="myvideodiv">
-<iframe class="myvideo" width="560" height="315" src="/videos/secreto.mp4" frameborder="0" allow="autoplay" allowfullscreen>
+<iframe class="myvideo" width="560" height="315" src="/videos/secreto.mp4" frameborder="0"  allowfullscreen>
 </iframe>
 </div>
 
