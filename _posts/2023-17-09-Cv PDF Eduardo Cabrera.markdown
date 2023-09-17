@@ -10,7 +10,7 @@ Soy aprendíz. No ando presumiendo de nada, sino disfrutando de todo. Me gusta a
 <img class="centrar" src="/images/chaplin.png" alt="Viñeta forges">
 
 <div class="pdf">
-<object data="/images/cv.pdf"  width="1000" height="1000" type='application/pdf'>
+<object data="/images/cv.pdf"  width="500" height="500" type='application/pdf'>
 </object>
 </div>
 
