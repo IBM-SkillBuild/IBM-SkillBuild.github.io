@@ -82,8 +82,9 @@ pre.highlight code,
     }
 
 object{
-  
-  @media screen and (max-width: 1200px) {
+  width: 600px;
+  height: 800px;
+  @media (max-width: 900px)  {
 
   width: 300;
   height: 750;
