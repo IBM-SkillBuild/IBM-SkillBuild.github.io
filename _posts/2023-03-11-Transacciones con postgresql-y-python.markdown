@@ -1,6 +1,6 @@
 ---
 title:  "Transacciones con PostgreSQL"
-date:   2023-09-16 21:38:00
+date:   2023-11-02 22:38:00
 categories: [Video-Tutoriales]
 tags: [Video-Tutoriales]
 ---
