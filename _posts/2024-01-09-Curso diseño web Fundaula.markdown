@@ -5,9 +5,10 @@ categories: [Eduardo,Cursos]
 tags: [Eduardo,Cursos,Fundaula,Accenture]
 ---
 
- No ando presumiendo de nada, sino disfrutando de todo. Me gusta aprender, perseverar, y soy un trabajador incansable. Si te cuento más cosas sería literatura. No puedo ofrecerles años de experiencia, ni una gran cantidad de tecnologías que se piden en muchas ofertas, y tampoco ignoro que inicialmente se necesita una base sólida para producir en un tiempo razonable y en el entorno de una nueva empresa. Yo me formo constantemente para ese fin. Puede parecer que es una apuesta valiente, pero estoy seguro que tengan un grupo en el que  me pueda desarrollar y colaborar activamente.
+ Aprobechando que una de las partes de este curso trata sobre el inspector de objetos de los navegadores, y estudiando los estilos CSS del archivo navbar.css de Accenture Fundaula, para el break-point de pantallas grandes, yo reduciría el padding-bottom de los enlaces del navegador que se muestra solo para su evento hover, evitando que en los enlaces cuyos textos son mas largos y se dividen en dos lineas para determinados anchos de pantalla, no se solape dicho border-bottom (efecto mostrado), con el final del nav y principio del body, ya que produce un efecto (de igual color) y poca elegancia que impide el contraste del border-bottom (efecto deseado) con el resto de contenido (body) del mismo color. Al mismo tiempo reduciria el height de los enlaces al 80% para evitar que ocupen toda la altura del nav, y se mejore la visualización de dicho efecto "subiendo algo" en zona nav, el efecto que queremos mostrar con el evento hover. O quizas algo tan sencillo como aumentar los "em" del min-height del nav para este diseño web. Es decir, quiero aportar que se pueden conjugar varias alternativas mejores que la actualmente diseñadas.
 
-<img class="centrar" src="/images/chaplin.png" alt="Viñeta forges">
+
+<img class="centrar" src="/images/fundaula-web.png" alt="Viñeta forges">
 
 
 
